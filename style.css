@@ -241,14 +241,19 @@ input::placeholder {
 .more-detail {
   padding-bottom: 8px;
   margin-bottom: 15px;
-  border-bottom: #474747;
 }
 .more-details {
   margin-top: 20px !important;
   padding: 15px 20px;
   width: 100%;
   margin: 0 auto;
-  background: black;
+  background: linear-gradient(
+    to bottom,
+    rgba(29, 29, 29, 0.65) 0,
+    rgba(29, 29, 29, 1) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #efefef;
   border-radius: 6px;
 }
